@@ -51,6 +51,8 @@ Before starting, make sure you have the following installed:
 ### Steps
 
 1. **Install dependencies**: Run `npm install`
+1. **Install dependencies**: Run `npm install resend`
+1. **Add Resend API**: Run `RESEND_API_KEY=your_resend_api_key_here`
 2. **Run the development server**: `npm run dev`
 3. **View your project**: Open [localhost:3000](http://localhost:3000)
 
