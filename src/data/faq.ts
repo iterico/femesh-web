@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `Can I import STEP files directly into FEmesh?`,
+        answer: 'Yes! FEmesh supports native STEP file import. Just drag and drop your CAD model into the app and start cleaning or meshing right away.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Do I need internet access to use FEmesh?`,
+        answer: 'Nope! FEmesh is a fully offline desktop app. All features—from CAD import to mesh export—work without an internet connection.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'Can I export meshes for both FEA and CFD?',
+        answer: `Absolutely. FEmesh lets you export in common mesh formats suitable for structural and fluid simulations, including STL and neutral mesh files.`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Is FEmesh suitable for complex assemblies?',
+        answer: 'Yes! FEmesh can handle multi-part assemblies. You can isolate, clean, and mesh individual components with full control over each one.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Do I need meshing experience to use FEmesh?',
+        answer: 'Not at all. FEmesh is designed for engineers, not just meshing experts. The interface is clean, intuitive, and guides you through every step.'
     }
 ];

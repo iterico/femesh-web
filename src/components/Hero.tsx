@@ -2,9 +2,6 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-
-import AppStoreButton from './AppStoreButton';
-import PlayStoreButton from './PlayStoreButton';
 import { heroDetails } from '@/data/hero';
 
 const Hero: React.FC = () => {
@@ -84,15 +81,10 @@ const Hero: React.FC = () => {
           )}
         </form>
 
-        <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
-          <AppStoreButton dark />
-          <PlayStoreButton dark />
-        </div>
-
         <Image
           src={heroDetails.centerImageSrc}
-          width={384}
-          height={340}
+          width={750}
+          height={750}
           quality={100}
           sizes="(max-width: 768px) 100vw, 384px"
           priority={true}

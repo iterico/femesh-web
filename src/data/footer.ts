@@ -4,10 +4,9 @@ export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
     email: string;
-    telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Simplifying CAD-to-mesh workflows with powerful, lightweight engineering software.",
     quickLinks: [
         {
             text: "Features",
@@ -18,20 +17,19 @@ export const footerDetails: {
             url: "#pricing"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "FAQ",
+            url: "#faq"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'info@femesh.com',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
+        //twitter: 'https://twitter.com/Twitter',
+        //facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
+        linkedin: 'https://www.linkedin.com/in/damjangnjidic',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        //instagram: 'https://www.instagram.com',
     }
 }

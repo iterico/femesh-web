@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Finwise',
+    siteName: 'FEmesh',
     siteUrl: 'https://finwise-omega.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'FEmesh - Simplifying CAD-to-mesh workflows',
+        description: 'FEmesh is a powerful, lightweight engineering software that simplifies CAD-to-mesh workflows. It is designed to help engineers and designers create high-quality meshes quickly and efficiently.',
     },
     language: 'en-us',
     locale: 'en-US',

@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'Level Up Your Simulation Process with FEmesh',
+    subheading: 'From clean CAD to export-ready mesh—FEmesh gives you full control in one lightweight desktop app. Start transforming your workflow now!',
     appStoreUrl: '#',
     googlePlayUrl: '#'
 }
