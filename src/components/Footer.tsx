@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaFingerprint } from 'react-icons/fa';
 import { footerDetails } from '@/data/footer';
 import { getPlatformIconByName } from '@/utils';
 

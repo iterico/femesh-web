@@ -4,9 +4,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
-
 import Container from './Container';
-import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
 
 const Header: React.FC = () => {
@@ -24,7 +22,7 @@ const Header: React.FC = () => {
                     <Link href="/" className="flex items-center gap-2">
                         <img src="/images/logo.png" alt="FEmesh Logo" className="w-8 h-8 object-contain" />
                         <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
-                            {siteDetails.siteName}
+                            FEmesh
                         </span>
                     </Link>
 
