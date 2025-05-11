@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgnjidic%2Ffemesh-web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fiterico%2Ffemesh-web)
 
 
 # FEmesh – Web-based CAD to Mesh Tool for CFD/FEA
